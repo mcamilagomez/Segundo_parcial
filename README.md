@@ -23,4 +23,6 @@ Nombre: María Camila Gómez Blanquicett
 
 -Seguridad
 
+-Inclusividad
 
+-Acceso a internet
