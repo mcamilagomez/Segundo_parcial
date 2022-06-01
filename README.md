@@ -29,3 +29,8 @@ Nombre: María Camila Gómez Blanquicett
 
 # Imagen UML
 ![image](https://user-images.githubusercontent.com/98895057/171456055-c36f98ca-0323-4502-b931-91912cfc27fa.png)
+
+# Para probar código
+Probar con trabajador ingresar luis 234
+Pobrar con cliente ingresar maria gomez 
+Pobrar agregar cliente ingresar cualquier nombre que no se encunetre en los txt
