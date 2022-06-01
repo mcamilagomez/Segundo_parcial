@@ -1,0 +1,52 @@
+@startuml examen
+'Clase padre en la que se encuentran los archivos, esta se abren
+class Login {
+    'txt de clientes
+    archivotxt1
+    'txt de caja
+    archivotxt2
+    'Método que buscar en cual de los dos txt se encuentra el usuario
+    'y así poder clasificarlo
+    Comprobar(): int
+}
+' En esta clase se encuentra todo lo relacionado a lo que se realizará en las cajas
+class Caja{
+    'Nombre de la persona que trabaja
+    nombre_trabajador: str
+    'Cantidad de clientes que atendió
+    nclientes: int
+    'Total de ventas q realizó
+    total_ventas: int
+    'Este método contiene lo relacionado a la atención del cliente, es decir, cuanto va a pagar
+    atender_clientes(): int
+    'En este método se se calcula el total de las ventas y número de clientes que obtuvo el/la trabajador de caja
+    total_ventas(): int
+    'En este método se impime el número de clientes y total de ventas del trabajador y se vuelve 0 en la fila del txt
+    cierre_cajas(): str
+}
+'En esta clase se encuentra todo lo relacionado a los clientes
+class Cliente{
+    'Nombre del cliente
+    nombre_cliente: str
+    'Puntos que ha acumulado el cliente
+    puntos: int
+    'Este método agrega los clientes en el txt si no existen
+    agregar_cliente(): str
+    'Este método muestra la clasificación de los clientes dependiendo
+    'la cantidad de puntos que tenga
+    mostrar_clasificacion(): str
+    'Este método imprime la cantidad de puntos que tenga el cliente
+    mostrar_puntos(): int
+    'Este método agrega la cantidad de puntos que obtiene cada cliente al realizar su compra si el usuario esta registrado
+    agregar_datos(): int
+    'Este método clasifica la cantidad de puntos que tiene el cliente para poder aagregarlo en el txt a través del método agregar_datos()
+    clasificacion_puntos():int
+}
+
+'Caja hereda de Login ya que en esta se encuentran los archivos abiertos para poder sacar y modificar toda la 
+'información necesaria.
+Caja --|> Login
+'Cliente hereda de Login ya que en esta se encuentran los archivos abiertos para poder sacar y modificar toda la 
+'información necesaria.
+Cliente --|> Login
+@enduml
