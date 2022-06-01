@@ -1,0 +1,4 @@
+andres lagares,0
+maria gomez,15
+laura gonzales,76
+ana ardila,0
