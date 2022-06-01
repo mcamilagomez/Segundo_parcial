@@ -32,5 +32,7 @@ Nombre: María Camila Gómez Blanquicett
 
 # Para probar código
 Probar con trabajador ingresar luis 234
+
 Pobrar con cliente ingresar maria gomez 
+
 Pobrar agregar cliente ingresar cualquier nombre que no se encunetre en los txt
