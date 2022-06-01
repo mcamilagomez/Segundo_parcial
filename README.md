@@ -26,3 +26,6 @@ Nombre: María Camila Gómez Blanquicett
 -Inclusividad
 
 -Acceso a internet
+
+# Imagen UML
+![image](https://user-images.githubusercontent.com/98895057/171456055-c36f98ca-0323-4502-b931-91912cfc27fa.png)
